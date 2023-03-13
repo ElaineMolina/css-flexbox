@@ -1,0 +1,60 @@
+/*5 - justify-content*/
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.center {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.item {
+	margin: 5px;
+	padding: 0 10px;
+	background: rgb(214, 76, 207);
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.flex {
+	flex: 1;
+}
+
+.container {
+	max-width: 420px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
+
+.column {
+	min-height: 200px;
+	flex-direction: column;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: rgb(254, 252, 252);
+	background-color: rgb(214, 76, 207);
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	margin: 20ps 0 0 0;
+	font-size: 1, 25em;
+	font-weight: normal;
+	font-family: 'Ubuntu';
+}

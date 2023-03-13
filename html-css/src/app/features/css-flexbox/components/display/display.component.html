@@ -1,0 +1,53 @@
+<h1> 1 - display</h1>
+
+<h2>display: block;</h2>
+<section class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+</section>
+
+<h2>display: flex;</h2>
+<p class="summary">Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex
+    itens.</p>
+<section class="container flex">
+    <div class="item">flex 1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+</section>
+
+<h2>display: flex; quebrando nowrap</h2>
+<p>ele segue o mínimo possível da paravra
+    depois estoura o container
+</p>
+<section class="container flex">
+    <div class="item">nowrap 1</div>
+    <div class="item">nowrap 2</div>
+    <div class="item">nowrap 3</div>
+    <div class="item">nowrap 4</div>
+    <div class="item">nowrap 5</div>
+    <div class="item">nowrap 6</div>
+    <div class="item">nowrap 7</div>
+    <div class="item">nowrap 8</div>
+</section>
+
+<h2>display: flex; flex-wrap</h2>
+<section class="container flex flex-wrap">
+    <div class="item">flex-wrap 1</div>
+    <div class="item">flex-wrap 2</div>
+    <div class="item">flex-wrap 3</div>
+    <div class="item">flex-wrap 4</div>
+    <div class="item">flex-wrap 5</div>
+    <div class="item">flex-wrap 6</div>
+    <div class="item">flex-wrap 7</div>
+</section>
+
+<h2>display: flex; // flex-item-1</h2>
+<p>ocupa o tamanho máximo do container, de ponta a ponta e é indicado pelo número 1</p>
+<section class="container flex">
+    <div class="item flex-item-1">flex-item1 1</div>
+    <div class="item flex-item-1">flex-item1 2</div>
+    <div class="item flex-item-1">flex-item1 3</div>
+</section>

@@ -1,0 +1,38 @@
+/* Flex-direction */
+.row {
+	flex-direction: row;
+}
+.row-reverse {
+	flex-direction: row-reverse;
+}
+.column {
+	flex-direction: column;
+}
+.column-reverse {
+	flex-direction: column-reverse;
+}
+h1{
+    font-size: 2.5em;
+    color: rgb(254, 252, 252);
+	background-color: rgb(227, 96, 98);
+	text-align: center;
+}
+h2 {
+    text-align: center;
+    margin: 20ps 0 0 0;
+    font-size: 1,25em;
+    font-weight: normal;
+    font-family: 'Ubuntu';
+}.item1 {
+    flex: 1;
+	margin: 5px;
+	background: rgb(227, 96, 98);
+	text-align: center;
+	font-size: 1.5em;
+}
+.container1 {
+    display: flex;
+	max-width: 300px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}

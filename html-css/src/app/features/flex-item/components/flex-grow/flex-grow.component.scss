@@ -1,0 +1,40 @@
+.grow0 {
+	flex-grow: 0;
+}
+
+.grow1 {
+	flex-grow: 1;
+}
+
+.grow2 {
+	flex-grow: 2;
+}
+
+h1{
+    font-size: 2.5em;
+    color: rgb(254, 252, 252);
+	background-color: rgb(30, 170, 145);
+	text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 20ps 0 0 0;
+    font-size: 1,25em;
+    font-weight: normal;
+    font-family: 'Ubuntu';
+}
+
+.item {
+	margin: 5px;
+	background: rgb(30, 170, 145);
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	border: 1px solid #ccc;
+}
