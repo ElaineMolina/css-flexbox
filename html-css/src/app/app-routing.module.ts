@@ -8,6 +8,9 @@ const routes: Routes = [
 },
   {path: 'flex-item',
   loadChildren: () => import ('./features/flex-item/flex-item.module').then(m => m.FlexItemModule)
+},
+  {path: 'flexblog',
+  loadChildren: () => import('./features/flexblog/flexblog.module').then(m => m.FlexblogModule)
 }
 ];
 
